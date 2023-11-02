@@ -1,4 +1,5 @@
 import Badge from "./components/badge/Badge";
+import Banner from "./components/banner/Banner";
 import Button from "./components/button/Button";
 
 function App() {
@@ -10,12 +11,7 @@ function App() {
       <Badge color="red" variant="pill">
         Badge
       </Badge>
-      <Badge color="gray" variant="square">
-        Badge
-      </Badge>
-      <Badge color="pink" variant="square">
-        Badge
-      </Badge>
+      <Banner status="warning" title="Congratulations!" />
     </div>
   );
 }
