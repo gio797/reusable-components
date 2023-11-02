@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+.badge {
+  padding: 8px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* variants */
+
+.badge.badge-square {
+  border-radius: 12px;
+}
+
+.badge.badge-pill {
+  border-radius: 4px;
+}
+
+/* colors */
+
+.badge.badge-gray {
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+.badge.badge-red {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.badge.badge-yellow {
+  color: #92400e;
+  background-color: #fef3c7;
+}
+
+.badge.badge-green {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+
+.badge.badge-blue {
+  color: #1e40af;
+  background-color: #dbeafe;
+}
+
+.badge.badge-pink {
+  color: #9d174d;
+  background-color: #fce7f3;
+}
