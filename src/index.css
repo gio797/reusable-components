@@ -8,7 +8,16 @@ body {
   padding: 10px;
   display: flex;
   justify-content: center;
+
   /* font-family: Inter; */
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .star {

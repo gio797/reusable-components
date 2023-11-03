@@ -11,7 +11,7 @@ function App() {
       <Badge color="red" variant="pill">
         Badge
       </Badge>
-      <Banner status="warning" title="Congratulations!" />
+      <Banner status="success" title="Congratulations!" />
     </div>
   );
 }
